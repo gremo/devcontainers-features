@@ -1,0 +1,18 @@
+{
+    "name": "PHP configuration",
+    "id": "php-config",
+    "version": "0.0.1",
+    "description": "Customize the PHP configuration",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/php-config",
+    "options": {
+        "source": {
+            "type": "string",
+            "default": "php.ini-development",
+            "proposals": [
+                "php.ini-development",
+                "php.ini-production"
+            ],
+            "description": "The filename to use as source (from the $PHP_INI_DIR directory)"
+        }
+    }
+}

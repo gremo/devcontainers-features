@@ -1,0 +1,21 @@
+{
+    "name": "Composer",
+    "id": "composer",
+    "version": "0.0.1",
+    "description": "Installs Composer",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/composer",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "latest-1",
+                "latest-2",
+                "preview",
+                "1.10.26"
+            ],
+            "default": "latest",
+            "description": "The version to install (\"latest\", \"latest-1\", \"latest-2\", \"preview\" or exact version)"
+        }
+    }
+}

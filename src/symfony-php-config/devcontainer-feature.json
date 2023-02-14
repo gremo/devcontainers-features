@@ -1,0 +1,39 @@
+{
+    "name": "Symfony PHP configuration",
+    "id": "symfony-php-config",
+    "version": "0.0.1",
+    "description": "Configures PHP for Symfony framework",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/symfony-php-config",
+    "options": {
+        "memoryLimit": {
+            "type": "string",
+            "default": "256M",
+            "description": "memory_limit value"
+        },
+        "realpathCacheSize": {
+            "type": "string",
+            "default": "4096K",
+            "description": "realpath_cache_size value"
+        },
+        "realpathCacheTtl": {
+            "type": "string",
+            "default": "600",
+            "description": "realpath_cache_ttl value"
+        },
+        "opcacheMaxAcceleratedFiles": {
+            "type": "string",
+            "default": "20000",
+            "description": "opcache.max_accelerated_files value"
+        },
+        "opcacheMemoryConsumption": {
+            "type": "string",
+            "default": "256",
+            "description": "opcache.memory_consumption value"
+        },
+        "xdebugClientHost": {
+            "type": "string",
+            "default": "host.docker.internal",
+            "description": "xdebug.client_host value"
+        }
+    }
+}

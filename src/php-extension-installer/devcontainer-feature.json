@@ -1,0 +1,26 @@
+{
+    "name": "php-extension-installer",
+    "id": "php-extension-installer",
+    "version": "0.0.1",
+    "description": "Installs mlocati/php-extension-installer",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/php-extension-installer",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "2.0.2"
+            ],
+            "default": "latest",
+            "description": "The version to install (\"latest\" or exact version)"
+        },
+        "extensions": {
+            "type": "string",
+            "default": "",
+            "description": "List of PHP extensions to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

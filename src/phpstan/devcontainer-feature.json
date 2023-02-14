@@ -1,0 +1,19 @@
+{
+    "name": "PHPStan",
+    "id": "phpstan",
+    "version": "0.0.1",
+    "description": "Installs PHPStan",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/phpstan",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "1.9.14",
+                "1.5.1"
+            ],
+            "default": "latest",
+            "description": "The version to install (\"latest\" or exact version)"
+        }
+    }
+}

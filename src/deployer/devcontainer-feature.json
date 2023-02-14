@@ -1,0 +1,18 @@
+{
+    "name": "Deployer",
+    "id": "deployer",
+    "version": "0.0.1",
+    "description": "Installs Deployer",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/deployer",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "6.9.0"
+            ],
+            "default": "latest",
+            "description": "The version to install (\"latest\" or exact version)"
+        }
+    }
+}

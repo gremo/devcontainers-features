@@ -1,0 +1,14 @@
+{
+    "name": "System packages",
+    "id": "system-pkgs",
+    "version": "0.0.1",
+    "description": "Install system packages from package manager",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/system-pkgs",
+    "options": {
+        "packages": {
+            "type": "string",
+            "default": "",
+            "description": "The packages to install (space separated)"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "PHP_CodeSniffer",
+    "id": "phpcs",
+    "version": "0.0.1",
+    "description": "Installs PHP_CodeSniffer",
+    "documentationURL": "https://github.com/gremo/devcontainers-features/tree/main/src/phpcs",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "3.7.1",
+                "3.6.2"
+            ],
+            "default": "latest",
+            "description": "The version to install (\"latest\" or exact version)"
+        }
+    }
+}
